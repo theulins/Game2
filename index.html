@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <div class="container text-center d-flex align-items-center justify-content-center vh-100">
-        <div class="game">
+    <div class="container d-flex align-items-center justify-content-center vh-100">
+        <div class="game p-4">
             <h1>Fortune Bab's</h1>
-            <div class="rolos">
+            <div class="rolos d-flex justify-content-center mb-3">
                 <div class="rolo"><img src="simbolos/simbolo1.png" alt="Símbolo 1"></div>
                 <div class="rolo"><img src="simbolos/simbolo2.png" alt="Símbolo 2"></div>
                 <div class="rolo"><img src="simbolos/simbolo3.png" alt="Símbolo 3"></div>
             </div>
             <div class="painel-controle">
                 <div>
-                    <button id="girar" class="btn btn-primary mb-3">Girar!</button> <!-- Adicionada a margem inferior -->
+                    <button id="girar" class="btn btn-primary mb-3 w-100">Girar!</button>
                 </div>
                 <p>
                     Aposta:
@@ -35,7 +35,7 @@
                 <p id="rendimento">Rendimento: 2x</p>
             </div>
             <div id="resultado" class="mt-3"></div>
-            <button id="resgatar" class="btn btn-secondary disabled mt-3">Resgatar prêmio</button>
+            <button id="resgatar" class="btn btn-secondary disabled mt-3 w-100">Resgatar prêmio</button>
             <p id="avisoResgate" class="mt-2" style="display: none; color: rgb(104, 88, 255);">
                 🏆 Alcançando 500 pontos, você poderá resgatar seu prêmio!
             </p>
